@@ -1,0 +1,55 @@
+.main_wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+    margin-top: 100px;
+}
+.inner-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+.filter_container{
+    width: 180px
+}
+.filt-option{
+    display: flex;
+    flex-direction: column;
+}
+.order-checkbox{
+    margin: 6px 0;
+    cursor: pointer;
+}
+.order-checkbox input{
+    margin-right: 12px;
+}
+.filt-option p{
+    margin:24px 0px ;
+}
+.order_data{
+    width: 100%;
+    border-collapse: collapse;
+}
+.order_data tr{
+    vertical-align: middle;
+}
+.order_data th{
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.order_data td{
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.secondary-text{
+    color: #8c8c8c
+}
+.primary-text{
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}
